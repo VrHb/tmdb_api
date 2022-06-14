@@ -17,15 +17,22 @@ pip install -r requirements.txt
 - Формируем базу данных (при запуске вводим API ключ):
 ```
 python make_own_db.py
-```
+````
 - Ищем в базе похожие фильмы:
 ```
 python find_similar.py
 ```
+Пример запуска:
+
+![](https://user-images.githubusercontent.com/65857641/173596534-c84103df-b966-4708-90e8-8b4c7e02ac1c.jpeg)
+
 - Ищем в базе фильм по названию:
 ```
 python search_in_db.py
 ```
+Пример запуска:
+
+![](https://user-images.githubusercontent.com/65857641/173597256-05137931-57ed-40d5-aefc-0d77dcc952f1.jpeg)
 
 ## Описание модулей:
 ### Модуль tmdb_helpers
